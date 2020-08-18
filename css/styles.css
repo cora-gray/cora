@@ -1,0 +1,123 @@
+body {
+  background-color: white;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  font-size: 24px;
+  padding-top: 45px;
+
+  padding-bottom: 40px;
+}
+
+h3 {
+  letter-spacing: 1px;
+  font-family: 'Baskervville';
+  padding-top: 41px;
+  text-align: left;
+}
+
+h4 {
+  color: orange;
+  font-size: 1.5em;
+  font-family: 'Baskervville';
+  letter-spacing: 1px;
+  line-height: .5em;
+}
+
+.nav-link {
+  padding-left: 1px;
+}
+/* Vertical Blog Month Menu */
+.vertical-menu {
+  padding-top: 30px;
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: white;
+  display: block; /* Make the links appear below each other */
+  padding-top: 15px;
+  padding-left: 1px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: white; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  color: white;
+}
+
+p {
+  font-family: 'Baskervville';
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-top: 40px;
+  padding-right: 30px;
+
+  color: #858585;
+  text-align: justify;
+}
+
+
+.f-icons {
+  font-size: 1.5em;
+  color: darkgrey;
+  position: relative;
+  top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.avatar1 {
+
+  margin-top: 6%;
+  width: 200px;
+  float: left;
+
+}
+
+.avatar2 {
+
+  margin-top: 6%;
+  width: 200px;
+  float: left;
+
+}
+
+.footer {
+  background-color: grey;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  bottom: 5%;
+  top: 90%;
+  left: 25%;
+  right: 25%;
+}
+
+.footer-link {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-container {
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+A.link {color: orange;}
+A.link:link  {text-decoration: none; color: orange;}
+A.link:visited {text-decoration: none; color: orange;}
+A.link:hover {text-decoration: none;; color: orange;}
+A.link:active {text-decoration: none; color: orange;}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  outline: white;
+  color: black;
+
+}
